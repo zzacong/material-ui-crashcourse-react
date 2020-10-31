@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 55px;
 }
 
 .App-logo {
@@ -12,6 +13,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* * custom */
+input {
+  color: white !important
+}
+
+/* * custom */
+
 
 .App-header {
   background-color: #282c34;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
