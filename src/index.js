@@ -1,3 +1,8 @@
+/**
+ * Traversy Media
+ * Material UI React Tutorial
+ * YouTube: https://youtu.be/vyJU9efvUtQ
+ */
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
