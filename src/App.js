@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import {
   Button,
@@ -84,7 +83,7 @@ function CheckboxExam() {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="md">
+      <Container maxWidth="xl">
         <div className="App">
           <header className="App-header">
             <AppBar color="secondary">
@@ -107,7 +106,7 @@ function App() {
 
             <ButtonStyled />
 
-            <Grid container spacing={4} justify="center">
+            {/* <Grid container spacing={4} justify="center">
               <Grid item xs={3} sm={6}>
                 <Paper style={{ height: 75, width: '100%' }} />
               </Grid>
@@ -117,7 +116,7 @@ function App() {
               <Grid item xs={3} sm={6}>
                 <Paper style={{ height: 75, width: '100%' }} />
               </Grid>
-            </Grid>
+            </Grid> */}
 
             <TextField
               variant="filled"
